@@ -8,4 +8,4 @@
  <br>
  Agniva Sardar
  <br>
- VIT Chennai, Student
+ Student, VIT Chennai
