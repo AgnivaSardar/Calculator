@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="back">
+        <header>
+            <div class="heading">Calculator</div>
+        </header>
+        <main>
+            <div class="calc-space-outer">
+                <div class="calc-space"></div>
+            </div>
+            <div class="buttons">
+                <div class="column" id="column1">
+                    <div itemid="other" class="box" id="box00">C</div>
+                    <div itemid="number" class="box" id="box10">7</div>
+                    <div itemid="number" class="box" id="box20">4</div>
+                    <div itemid="number" class="box" id="box30">1</div>
+                    <div itemid="other" class="box" id="box40">
+                        <i class="fa-solid fa-clone"></i>
+                    </div>
+                </div>
+                <div class="column" id="column2">
+                    <div itemid="other" class="box" id="box01">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </div>
+                    <div itemid="number" class="box" id="box11">8</div>
+                    <div itemid="number" class="box" id="box21">5</div>
+                    <div itemid="number" class="box" id="box31">2</div>
+                    <div itemid="number" class="box" id="box41">0</div>
+                </div>
+                <div class="column" id="column3">
+                    <div itemid="operator" class="box" id="box02">%</div>
+                    <div itemid="number" class="box" id="box12">9</div>
+                    <div itemid="number" class="box" id="box22">6</div>
+                    <div itemid="number" class="box" id="box32">3</div>
+                    <div itemid="number" class="box" id="box42">.</div>
+                </div>
+                <div class="column" id="column4">
+                    <div itemid="operator" class="box" id="box03">/</div>
+                    <div itemid="operator" class="box" id="box13">*</div>
+                    <div itemid="operator" class="box" id="box23">-</div>
+                    <div itemid="operator" class="box" id="box33">+</div>
+                    <div itemid="operator" class="box" id="box43">=</div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
